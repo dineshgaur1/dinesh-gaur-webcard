@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dinesh Gaur - Digital Business Card</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #0a2342, #103c74);
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+    .container { max-width: 900px; margin: 40px auto; padding: 20px; }
+    .landing-card {
+      text-align: center; padding: 40px 20px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 18px; backdrop-filter: blur(8px);
+      margin-bottom: 40px; box-shadow: 0 4px 25px rgba(0,0,0,0.3);
+    }
+    .profile-img {
+      width: 140px; height: 140px; border-radius: 50%;
+      object-fit: cover; border: 4px solid #fff; margin-bottom: 20px;
+    }
+    .landing-buttons a {
+      display: inline-block; background: #1cbfff;
+      padding: 12px 22px; border-radius: 8px;
+      margin: 8px; text-decoration: none; font-weight: bold; color: #000;
+    }
+    .card-wrapper { display: flex; justify-content: center; }
+    .business-card {
+      background: #fff; width: 420px; padding: 24px;
+      border-radius: 18px; color: #000;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+    }
+    .business-card .profile-img-card {
+      width: 110px; height: 110px; border-radius: 50%;
+      object-fit: cover; display: block; margin: 0 auto 16px;
+    }
+    .info strong { width: 110px; display: inline-block; }
+    .logo { width: 180px; display: block; margin: 24px auto; }
+    .qr { width: 160px; display: block; margin: 20px auto; }
+    a { color: #1cbfff; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="landing-card">
+      <img src="Dinesh.jpg" class="profile-img" alt="Dinesh Gaur" />
+      <h1>Dinesh Gaur</h1>
+      <h3>Business Manager • ITQ Technologies Pvt. Ltd</h3>
+      <div class="landing-buttons">
+        <a href="tel:+919825898948">📞 Call</a>
+        <a href="mailto:dinesh.gaur@itq.in">✉️ Email</a>
+        <a href="https://itq.in/">🌐 Website</a>
+        <a href="Dinesh_Gaur.vcf">📄 Download vCard</a>
+      </div>
+      <img src="qr.png" class="qr" alt="QR Code" />
+    </div>
+    <div class="card-wrapper">
+      <div class="business-card">
+        <img src="Dinesh.jpg" class="profile-img-card" alt="Dinesh Gaur" />
+        <h2 style="text-align:center;">Dinesh Gaur</h2>
+        <h4 style="text-align:center; color:#444;">Business Manager</h4>
+        <div class="info"><strong>Phone:</strong> +91 9825898948</div>
+        <div class="info"><strong>Email:</strong> dinesh.gaur@itq.in</div>
+        <div class="info"><strong>Company:</strong> ITQ Technologies Pvt. Ltd</div>
+        <div class="info"><strong>Website:</strong> <a href="https://itq.in/">https://itq.in/</a></div>
+        <img src="logo.png" class="logo" alt="Company Logo" />
+        <img src="qr.png" class="qr" alt="QR Code" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>
