@@ -24,4 +24,89 @@
     .profile-img {
       width: 140px; height: 140px;
       border-radius: 20px;   /* UPDATED */
-      object-
+      object-fit: cover; border: 4px solid #fff; margin-bottom: 20px;
+    }
+
+    .landing-buttons a {
+      display: inline-block; background: #1cbfff;
+      padding: 12px 22px; border-radius: 8px;
+      margin: 8px; text-decoration: none; font-weight: bold; color: #000;
+    }
+
+    .card-wrapper { display: flex; justify-content: center; }
+
+    .business-card {
+      background: #fff; width: 420px; padding: 24px;
+      border-radius: 18px; color: #000;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+    }
+
+    /* Updated rounded-square profile image in card */
+    .business-card .profile-img-card {
+      width: 110px; height: 110px;
+      border-radius: 20px;   /* UPDATED */
+      object-fit: cover; 
+      display: block; margin: 0 auto 16px;
+    }
+
+    .info strong { width: 110px; display: inline-block; }
+    .logo { width: 180px; display: block; margin: 24px auto; }
+    .qr { width: 160px; display: block; margin: 20px auto; }
+    a { color: #1cbfff; }
+
+    /* Floating WhatsApp Button */
+    .float-wa {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 34px;
+      line-height: 60px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      text-decoration: none;
+      z-index: 9999;
+      transition: transform 0.2s ease-in-out;
+    }
+    .float-wa:hover { transform: scale(1.1); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="landing-card">
+      <img src="Dinesh.jpg" class="profile-img" alt="Dinesh Gaur" />
+      <h1>Dinesh Gaur</h1>
+      <h3>Business Manager • ITQ Technologies Pvt. Ltd</h3>
+      <div class="landing-buttons">
+        <a href="tel:+919825898948">📞 Call</a>
+        <a href="mailto:dinesh.gaur@itq.in">✉️ Email</a>
+        <a href="https://itq.in/">🌐 Website</a>
+        <a href="contact_whatsapp.vcf">📄 Download vCard</a>
+      </div>
+      <img src="qr.png" class="qr" alt="QR Code" />
+    </div>
+
+    <div class="card-wrapper">
+      <div class="business-card">
+        <img src="Dinesh.jpg" class="profile-img-card" alt="Dinesh Gaur" />
+        <h2 style="text-align:center;">Dinesh Gaur</h2>
+        <h4 style="text-align:center; color:#444;">Business Manager</h4>
+        <div class="info"><strong>Phone:</strong> +91 9825898948</div>
+        <div class="info"><strong>Email:</strong> dinesh.gaur@itq.in</div>
+        <div class="info"><strong>Company:</strong> ITQ Technologies Pvt. Ltd</div>
+        <div class="info"><strong>Website:</strong> <a href="https://itq.in/">https://itq.in/</a></div>
+        <img src="logo.png" class="logo" alt="Company Logo" />
+        <img src="qr.png" class="qr" alt="QR Code" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/919825898948" class="float-wa" target="_blank">💬</a>
+
+</body>
+</html>
