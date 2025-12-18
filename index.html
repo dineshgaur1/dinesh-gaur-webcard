@@ -42,6 +42,28 @@
     .logo { width: 180px; display: block; margin: 24px auto; }
     .qr { width: 160px; display: block; margin: 20px auto; }
     a { color: #1cbfff; }
+
+    /* Floating WhatsApp Button */
+    .float-wa {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 34px;
+      line-height: 60px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      text-decoration: none;
+      z-index: 9999;
+      transition: transform 0.2s ease-in-out;
+    }
+    .float-wa:hover {
+      transform: scale(1.1);
+    }
   </style>
 </head>
 <body>
@@ -54,7 +76,7 @@
         <a href="tel:+919825898948">📞 Call</a>
         <a href="mailto:dinesh.gaur@itq.in">✉️ Email</a>
         <a href="https://itq.in/">🌐 Website</a>
-        <a href="Dinesh_Gaur.vcf">📄 Download vCard</a>
+        <a href="contact_whatsapp.vcf">📄 Download vCard</a>
       </div>
       <img src="qr.png" class="qr" alt="QR Code" />
     </div>
@@ -72,10 +94,9 @@
       </div>
     </div>
   </div>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/919825898948" class="float-wa" target="_blank">💬</a>
+
 </body>
 </html>
-    
-<!-- force redeploy -->  
-<!-- redeploy -->
-
- 
