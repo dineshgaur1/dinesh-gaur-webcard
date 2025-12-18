@@ -1,0 +1,22 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Dinesh Gaur
+N:Gaur;Dinesh;;;
+TITLE:Business Manager
+ORG:ITQ Technologies Pvt. Ltd.
+
+ADR;TYPE=WORK:;;5th Floor, SPG Empressa 507, Mithakhali Six Road;Ahmedabad;Gujarat;380009;India
+
+TEL;TYPE=CELL,VOICE:+91 9825898948
+EMAIL;TYPE=WORK:dinesh.gaur@itq.in
+URL:https://itq.in/
+
+URL;TYPE=WORK:https://wa.me/919825898948
+URL;TYPE=HOME:https://facebook.com/yourprofile
+URL;TYPE=HOME:https://instagram.com/yourprofile
+
+PHOTO;VALUE=URI:https://dineshgaur1.github.io/dinesh-gaur-webcard/Dinesh.jpg
+
+NOTE:Business Manager at ITQ Technologies Pvt. Ltd.
+
+END:VCARD
